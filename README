@@ -1,0 +1,24 @@
+This project contains some examples of compile-time techniques in Java, as presented to the Melbourne Scala User Group on 28/3/2011.  
+
+It contains implementations of:
+- The Builder pattern, with normal runtime error checking
+- The Builder pattern with compile-time error-checking, with only some minor tweaks to the runtime version.
+- The Smart Constructor pattern as demonstrated by Tony Morris in the Scala-Debate mailing list.
+- My attempt at Tony Morris' compile-time TicTacToe challenge. 
+
+Further links:
+Jim McBeath's original blog post:
+http://jim-mcbeath.blogspot.com/2009/09/type-safe-builder-in-scala-using-church.html
+
+Tony Morris's TicTacToe challenge
+http://blog.tmorris.net/scala-exercise-with-types-and-abstraction/
+
+Tony Morris explaining smart constructors in support of the TicTacToe challenge:
+http://groups.google.com/group/scala-debate/msg/f9544a601b06b409
+
+*spoiler*
+Tony Morris's solution to the TicTacToe Challenge (incidentally there's some really great Haskell & FP exercises here too)
+https://bitbucket.org/dibblego/haskell-course/src/57a00f8bebda/TicTacToe/scala/TicTacToe.scala
+
+And for the really advanced stuff...
+http://apocalisp.wordpress.com/2010/06/08/type-level-programming-in-scala/
