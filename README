@@ -4,7 +4,8 @@ It contains implementations of:
 - The Builder pattern, with normal runtime error checking
 - The Builder pattern with compile-time error-checking, with only some minor tweaks to the runtime version.
 - The Smart Constructor pattern as demonstrated by Tony Morris in the Scala-Debate mailing list.
-- My attempt at Tony Morris' compile-time TicTacToe challenge. 
+- My first attempt at Tony Morris' compile-time TicTacToe challenge, which tried to do the whole thing in the type system and abjectly failed.
+- My second attempt at Tony Morris' compile-time TicTacToe challenge, having shamefully looked at the answers.
 
 Further links:
 Jim McBeath's original blog post:
